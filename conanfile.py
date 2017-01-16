@@ -6,14 +6,14 @@ from conans import CMake, ConfigureEnvironment
 
 class ZlibConan(ConanFile):
     name = "zlib"
-    version = "1.2.8"
+    version = "1.2.11"
     ZIP_FOLDER_NAME = "zlib-%s" % version
     generators = "cmake"
     settings = "os", "arch", "compiler", "build_type"
     options = {"shared": [True, False]}
     default_options = "shared=False"
     exports = ["CMakeLists.txt", "FindZLIB.cmake"]
-    url="http://github.com/lasote/conan-zlib"
+    url="http://github.com/windoze/conan-zlib"
     license="http://www.zlib.net/zlib_license.html"
     description="A Massively Spiffy Yet Delicately Unobtrusive Compression Library (Also Free, Not to Mention Unencumbered by Patents)"
     

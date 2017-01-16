@@ -5,8 +5,8 @@ environment:
     PYTHON_ARCH: "32"
     
     CONAN_UPLOAD: 1
-    CONAN_REFERENCE: "zlib/1.2.8"
-    CONAN_USERNAME: "lasote"
+    CONAN_REFERENCE: "zlib/1.2.11"
+    CONAN_USERNAME: "windoze"
     CONAN_CHANNEL: "testing"
     CONAN_TOTAL_PAGES: 4
     CONAN_STABLE_BRANCH_PATTERN: "release/*"
